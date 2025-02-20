@@ -20,11 +20,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create an Azure Virtual Machine Windows 10, 4 vCPUs
+- Log into the VM with Remote Desktop
+- Install / Enable IIS in Windows WITH CGI
+- Install PHP Manager for IIS
+- Install the Rewrite Module
+- Create the directory C:\PHP
+- Unzip PHP 7.3.8 into the “C:\PHP” folder
+- install VC_redist.x86.exe
+- install MySQL 5.5.62
+- Open IIS as an Admin
+- Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+- Reload IIS (Open IIS, Stop and Start the server)
 
 <h2>Installation Steps</h2>
 
